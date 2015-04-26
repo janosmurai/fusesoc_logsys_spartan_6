@@ -1,0 +1,89 @@
+DEBUG:__main__:Command line arguments: ['/usr/local/bin/fusesoc', 'sim', 'logsys_spartan_6', '--vcd']
+DEBUG:fusesoc.config:Looking for config files from /etc/fusesoc/fusesoc.conf:/home/murai/.config/fusesoc/fusesoc.conf:fusesoc.conf
+DEBUG:fusesoc.config:Found config files in /home/murai/.config/fusesoc/fusesoc.conf
+DEBUG:fusesoc.config:build_root=/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build
+DEBUG:fusesoc.config:cache_root=/home/murai/.cache/fusesoc
+DEBUG:fusesoc.config:cores_root=/home/murai/openrisc/orpsoc-cores-ng/cores
+DEBUG:fusesoc.config:systems_root=/home/murai/openrisc/orpsoc-cores-ng/systems
+DEBUG:fusesoc.coremanager:Checking for cores in /home/murai/openrisc/orpsoc-cores-ng/cores
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/mt48lc16m16a2/mt48lc16m16a2.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/verilator_tb_utils/verilator_tb_utils.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/uart16550/uart16550-1.5.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/uart16550/uart16550.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/jtag_tap/jtag_tap.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/simple_spi/simple_spi.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/altera_virtual_jtag/altera_virtual_jtag.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/scalable_arbiter/scalable_arbiter.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/dbg/dbg.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/mmuart/mmuart.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_altera_ddr_wrapper/wb_altera_ddr_wrapper.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_ram/wb_ram.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/jp_vpi/jp_vpi.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/vga_lcd/vga_lcd.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/gpio/gpio.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/fifo/fifo-1.0.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_bfm/wb_bfm.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_intercon/wb_intercon-1.0.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_intercon/wb_intercon.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/elf-loader/elf-loader.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_avalon_bridge/wb_avalon_bridge.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/verilog-arbiter/verilog-arbiter.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/verilog-arbiter/verilog-arbiter-r1.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/cfi_ctrl/cfi_ctrl.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_sdram_ctrl/wb_sdram_ctrl.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/jtag_vpi/jtag_vpi.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/minimac2/minimac2.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/i2c/i2c.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/stream_utils/stream_utils-1.0.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/or1200/or1200.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/ac97/ac97.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wiredelay/wiredelay.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/mor1kx/mor1kx-2.2.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/mor1kx/mor1kx.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/diila/diila.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/ethmac/ethmac.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/vlog_tb_utils/vlog_tb_utils.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/ram_wb/ram_wb.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/mt46v16m16p/mt46v16m16p.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/verilog_utils/verilog_utils.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/adv_debug_sys/adv_debug_sys.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/uart16550_model/uart16550_model.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/wb_common/wb_common.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/csrbrg/csrbrg.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/cores/ps2/ps2.core
+DEBUG:fusesoc.coremanager:Checking for cores in /home/murai/openrisc/orpsoc-cores-ng/systems
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_3/logsys_spartan_3.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/logsys_spartan_6.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/or1200-generic/or1200-generic.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/de0_nano/de0_nano.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/atlys/atlys.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/mor1kx-generic/mor1kx-generic.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/lx9_microboard/lx9_microboard.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/de1/de1.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/sockit/sockit.core
+DEBUG:fusesoc.coremanager:Adding core /home/murai/openrisc/orpsoc-cores-ng/systems/neek/neek.core
+DEBUG:__main__:Autodetected 64-bit mode
+DEBUG:__main__:Colorful output
+DEBUG:__main__:Concise output
+DEBUG:fusesoc.simulator.simulator:depend -->  ['elf-loader', 'gpio', 'mor1kx', 'verilog-arbiter', 'verilog_utils', 'vlog_tb_utils', 'wb_bfm', 'wb_intercon', 'wb_common', 'wb_ram', 'logsys_spartan_6']
+DEBUG:fusesoc.simulator.simulator:core_name=elf-loader
+DEBUG:fusesoc.simulator.simulator:core_name=gpio
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=None
+DEBUG:fusesoc.simulator.simulator:core_name=mor1kx
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=['rtl/verilog']
+DEBUG:fusesoc.simulator.simulator:core_name=verilog-arbiter
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=None
+DEBUG:fusesoc.simulator.simulator:core_name=verilog_utils
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=['']
+DEBUG:fusesoc.simulator.simulator:core_name=vlog_tb_utils
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=None
+DEBUG:fusesoc.simulator.simulator:core_name=wb_bfm
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=['']
+DEBUG:fusesoc.simulator.simulator:core_name=wb_intercon
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=None
+DEBUG:fusesoc.simulator.simulator:core_name=wb_common
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=['']
+DEBUG:fusesoc.simulator.simulator:core_name=wb_ram
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=None
+DEBUG:fusesoc.simulator.simulator:core_name=logsys_spartan_6
+DEBUG:fusesoc.simulator.simulator:core.include_dirs=['rtl/verilog', 'rtl/verilog/include']

@@ -1,0 +1,3 @@
+VCD info: dumpfile testlog.vcd opened for output.
+tb_orpsoc_top.uut.mor1kx0.bus_gen.ibus_bridge: Wishbone bus IF is B3_REGISTERED_FEEDBACK
+tb_orpsoc_top.uut.mor1kx0.bus_gen.dbus_bridge: Wishbone bus IF is B3_REGISTERED_FEEDBACK

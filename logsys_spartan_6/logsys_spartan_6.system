@@ -1,0 +1,14 @@
+SAPI=1
+[main]
+name = logsys_spartan_6
+description = "OR1K system for the Logsys Spartan 6 board"
+
+backend = ise
+
+[ise]
+ucf_files = data/logsys_sp6_board.ucf
+family = spartan6
+device = xc6slx9
+package = tqg144
+speed = -3
+top_module = orpsoc_top

@@ -1,0 +1,70 @@
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/elf-loader.c: In function ‘dump_program_data’:
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/elf-loader.c:48:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < phdr_num; i++) {
+                    ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c: In function ‘setup_reset_callbacks’:
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:166:3: warning: missing initializer for field ‘high’ of ‘s_vpi_time’ [-Wmissing-field-initializers]
+   static s_vpi_time time_s = {vpiScaledRealTime};
+   ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:95:18: note: ‘high’ declared here
+       PLI_UINT32 high;
+                  ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:167:3: warning: missing initializer for field ‘value’ of ‘s_vpi_value’ [-Wmissing-field-initializers]
+   static s_vpi_value value_s = {vpiBinStrVal};
+   ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:128:9: note: ‘value’ declared here
+       } value;
+         ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:175:5: warning: missing initializer for field ‘index’ of ‘s_cb_data’ [-Wmissing-field-initializers]
+     };
+     ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:461:17: note: ‘index’ declared here
+       PLI_INT32 index;
+                 ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c: In function ‘setup_endofcompile_callbacks’:
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:201:3: warning: missing initializer for field ‘high’ of ‘s_vpi_time’ [-Wmissing-field-initializers]
+   static s_vpi_time time_s = {vpiScaledRealTime};
+   ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:95:18: note: ‘high’ declared here
+       PLI_UINT32 high;
+                  ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:202:3: warning: missing initializer for field ‘value’ of ‘s_vpi_value’ [-Wmissing-field-initializers]
+   static s_vpi_value value_s = {vpiBinStrVal};
+   ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:128:9: note: ‘value’ declared here
+       } value;
+         ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:210:5: warning: missing initializer for field ‘index’ of ‘s_cb_data’ [-Wmissing-field-initializers]
+     };
+     ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:461:17: note: ‘index’ declared here
+       PLI_INT32 index;
+                 ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c: In function ‘setup_finish_callbacks’:
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:233:3: warning: missing initializer for field ‘high’ of ‘s_vpi_time’ [-Wmissing-field-initializers]
+   static s_vpi_time time_s = {vpiScaledRealTime};
+   ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:95:18: note: ‘high’ declared here
+       PLI_UINT32 high;
+                  ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:234:3: warning: missing initializer for field ‘value’ of ‘s_vpi_value’ [-Wmissing-field-initializers]
+   static s_vpi_value value_s = {vpiBinStrVal};
+   ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:128:9: note: ‘value’ declared here
+       } value;
+         ^
+/home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:242:5: warning: missing initializer for field ‘index’ of ‘s_cb_data’ [-Wmissing-field-initializers]
+     };
+     ^
+In file included from /home/murai/openrisc/orpsoc-cores-ng/systems/logsys_spartan_6/build/logsys_spartan_6/src/elf-loader/vpi_wrapper.c:3:0:
+/usr/local/include/iverilog/vpi_user.h:461:17: note: ‘index’ declared here
+       PLI_INT32 index;
+                 ^
